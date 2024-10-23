@@ -71,6 +71,9 @@ const schema = reactive<DescriptionsSchema[]>([
 ## Descriptions 属性
 
 除以下参数外，还支持 `element-plus` 的 `Descriptions` 所有属性，[详见](https://element-plus.org/zh-CN/component/descriptions.html#descriptions-%E5%B1%9E%E6%80%A7)
+::: warning 注意
+从 v2.5.3之后，Descriptions 组件不再基于 `element-plus` 的 `Descriptions` 进行二次封装，所以可能有的属性无法使用，具体可以自行修改或者改造，或者可以提issue。
+:::
 
 | 属性 | 说明 | 类型 | 可选值 | 默认值 |
 | ---- | ---- | ---- | ---- | ---- |
